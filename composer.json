@@ -1,0 +1,15 @@
+{
+    "name": "dioufidriss/projet2",
+    "autoload": {
+        "psr-4": {
+            "Dioufidriss\\Projet2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "idriss",
+            "email": "dioufidrissaa@gmail.com"
+        }
+    ],
+    "require": {}
+}

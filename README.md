@@ -13,3 +13,16 @@ Un commit, c'est comme une sauvegarde que vous faites régulièrement pendant qu
 
 Pourquoi la branche main doit-elle rester stable ?
 La branche main est la vitrine officielle et la référence de l'application en production. Si elle contient des bugs ou du code cassé, cela bloque le travail de toute l'équipe, empêche le déploiement et complique l'intégration de nouvelles fonctionnalités.
+
+
+
+Pourquoi placer index.php dans un dossier public ?
+Placer le fichier index.php dans un dossier public est une excellente pratique de sécurité et d'architecture appelée le modèle du contrôleur unique .Placer index.php dans un dossier public sert avant tout à sécuriser votre application
+
+Pourquoi toutes les requêtes devraient-elles passer par ce fichier ?
+Faire passer toutes les requêtes par index.php permet de centraliser le contrôle de votre application. C'est le principe du contrôleur unique (Front Controller).
+
+Quels éléments ne devraient jamais se trouver dans le dossier public ?
+Pour garantir la sécurité de votre application, le dossier public ne doit contenir aucun code logique ou donnée sensible.
+
+
