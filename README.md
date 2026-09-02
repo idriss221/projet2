@@ -25,4 +25,15 @@ Faire passer toutes les requêtes par index.php permet de centraliser le contrô
 Quels éléments ne devraient jamais se trouver dans le dossier public ?
 Pour garantir la sécurité de votre application, le dossier public ne doit contenir aucun code logique ou donnée sensible.
 
+Quelle relation avez-vous établie entre les deux classes ?
+J'ai établi une relation d'heritage.
+
+Pourquoi ne peut-on pas créer directement un AbstractDocument ?
+ À première vue, on ne peut pas créer de document abstrait car on ignore encore si la relation existera ou non.
+
+Pourquoi l’identifiant peut-il être absent avant la sauvegarde ?
+
+Quel principe de conception est favorisé par la protection des propriétés ?
+
+
 

@@ -2,7 +2,12 @@
     "name": "dioufidriss/projet2",
     "autoload": {
         "psr-4": {
-            "Dioufidriss\\Projet2\\": "src/"
+            "App\\Core\\": "src/Core",
+            "App\\DTO\\": "src/DTO",
+            "App\\Entity\\": "src/Entity",
+            "App\\Repository\\": "src/Repository",
+            "App\\Controller\\": "src/Controller",
+            "App\\Service\\": "src/Service"
         }
     },
     "authors": [
@@ -11,5 +16,7 @@
             "email": "dioufidrissaa@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.7"
+    }
 }
